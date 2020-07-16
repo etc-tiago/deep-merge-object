@@ -11,7 +11,7 @@ npm install deep-merge-object --save-dev
 or
 
 ```sh
-yarn add -D deep-merge-object
+yarn add deep-merge-object
 ```
 
 ## Import / Require
