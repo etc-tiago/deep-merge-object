@@ -14,17 +14,13 @@ jobs:
           node-version: "12.16.x"
       - uses: actions/checkout@v1
 
-      - name: Install
-        run: yarn install --silent --frozen-lockfile
+      - run: yarn install --silent --frozen-lockfile
 
-      - name: Lint
-        run: yarn lint
+      # - run: yarn lint
 
-      - name: Test
-        run: yarn test
+      - run: yarn test
 
-      - name: Build
-        run: yarn build
+      - run: yarn build
 
   changelog:
     needs: [test]
