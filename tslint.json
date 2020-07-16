@@ -1,0 +1,8 @@
+{
+  "plugins": ["prettier"],
+  "extends": ["tslint-plugin-prettier", "tslint:recommended", "tslint-config-prettier"],
+  "rules": {
+    "max-line-length": [true],
+    "prettier": true
+  }
+}
