@@ -1,0 +1,40 @@
+{
+  "name": "deep-merge-object",
+  "description": "Lightweight Javascript deep merge object",
+  "version": "0.1.0",
+  "author": "Tiago Souza",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "tslint -p tsconfig.json",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "repository": {
+    "url": "https://github.com/etc-tiago/deep-merge-object",
+    "type": "git"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "@types/node": "^14.0.0",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.2",
+    "ts-node": "^8.6.2",
+    "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.2.0",
+    "typescript": "^3.8.3"
+  }
+}
