@@ -1,6 +1,12 @@
 import { objectMerge } from './';
 
 describe('objectMerge test', () => {
+  it('should replace true with false', () => {
+    const objA = { a: true };
+    const objB = { a: false };
+    expect(objectMerge(objA, objB)).toEqual({ a: false });
+  });
+
   it('should merge two simple objects', () => {
     const objA = { a: true };
     const objB = { b: 0 };
